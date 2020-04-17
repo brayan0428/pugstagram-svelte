@@ -1,3 +1,10 @@
+<script>
+  import Header from "../components/Header.svelte";
+  import Main from "../components/Main.svelte";
+  import Timeline from "../components/Timeline.svelte";
+  import Sidebar from "../components/Sidebar.svelte";
+</script>
+
 <style>
   :global(body) {
     background-color: #676778;
@@ -5,12 +12,8 @@
   }
 </style>
 
-<div class="main">
-  <h1>Hello Pugstagram</h1>
-  <p>
-    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum accusantium,
-    ut dolor magnam quidem eligendi iusto totam perferendis perspiciatis.
-    Assumenda doloremque rem illum nisi quibusdam voluptate amet odit pariatur
-    incidunt.
-  </p>
-</div>
+<Header />
+<Main>
+  <Timeline />
+  <Sidebar />
+</Main>
