@@ -44,7 +44,7 @@
     <i class="fas fa-times-circle" on:click />
   </div>
   <div class="Share-content">
-    <a href="#">
+    <a href="/">
       <i class="fab fa-facebook-square" />
       Compartir en facebook
     </a>
